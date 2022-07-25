@@ -6,7 +6,7 @@ import sprout from '../assets/icon-sprout-o.svg'
 import server from '../assets/icon-server-o.svg'
 import checkmark from '../assets/icon-checkmark-o.svg'
 import graph from '../assets/icon-graph-o.svg'
-import lock from '../assets/icon-lock-bold-o.svg'
+import lock from '../assets/icon-lock-o.svg'
 
 export default function WhatImGoodAt() {
     return (
@@ -38,7 +38,7 @@ export default function WhatImGoodAt() {
                     Maintain it? Monitor it? From deployment pipelines to alerting, I've built countless integrations
                     that deliver value in seconds, and keep that value operating at peak performance.
                 </Trait>
-                <Trait title="Operations" icon={graph}>
+                <Trait title="Developer Operations" icon={graph}>
                     Many engineers forget that Software Development is much more than just writing code. How do you deploy it?
                     Maintain it? Monitor it? From deployment pipelines to alerting, I've built countless integrations
                     that deliver value in seconds, and keep that value operating at peak performance.
