@@ -11,7 +11,7 @@ function Resume() {
     return (
         <div className="pb-32">
             <ThemeContext.Provider value={Themes.light}>
-                <div className={`grid h-screen place-items-center ${Themes.light.background} text-gray-800`}>
+                <div className={`grid h-screen place-items-center ${Themes.light.background} text-gray-600`}>
                     <Header/>
                     <WhatImGoodAt/>
                     <Skills/>

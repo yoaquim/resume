@@ -41,7 +41,7 @@ export default function Skills() {
                         <div className="col-span-1 pl-4 lg:pl-0">
                             <div className="w-1/2 lg:w-1/4 flex space-x-2">
                                 <img src={icon} alt="" style={style}/>
-                                <span className="font-light">{name}</span>
+                                <span className="font-bold uppercase">{name}</span>
                             </div>
                         </div>
                     )
