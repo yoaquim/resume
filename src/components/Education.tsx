@@ -8,14 +8,15 @@ export default function Education() {
     const Theme: Theme = useContext(ThemeContext)
     const iconStyle = {height: '25px', width: '25px'}
     const calStyle = {height: '18px', width: '18px'}
-    const gradientText = `ml-2 font-bold bg-clip-text text-transparent bg-gradient-to-r ${Theme.gradient} uppercase`
+    const gradientText = `ml-3 font-bold bg-clip-text text-transparent bg-gradient-to-r ${Theme.gradient} uppercase`
+    const smallScreen: boolean = window.innerWidth < 1024
 
     return (
         <Section title="Education">
             <div className="col-span-1">
                 <div className="flex flex-row justify-items-center">
                     <img src={graduate} alt="" style={iconStyle}/>
-                    <h3 className="ml-3 uppercase font-bold">University of Puerto Rico at Mayagüez —</h3>
+                    <h3 className="ml-3 uppercase font-bold">University of Puerto Rico at Mayagüez {smallScreen ? '' : '   ｜'}</h3>
                     <div className={gradientText}>B.S. Computer Engineering</div>
                 </div>
 

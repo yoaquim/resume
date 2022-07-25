@@ -1,8 +1,8 @@
-import React, {ReactNode, useContext, useState} from 'react'
+import React, {useContext, useState} from 'react'
 import Section from './Section'
 import opensource from '../assets/icon-opensource-o.svg'
 import calendar from '../assets/icon-calendar-o.svg'
-import {JobHighlight} from './Job'
+import Highlight from './Highlight'
 import ThemeContext, {Theme} from '../context'
 
 export default function Projects() {
@@ -30,7 +30,7 @@ export default function Projects() {
                     <div className="ml-4 uppercase font-bold">07.2022</div>
                 </div>
 
-                <div className="grid grid-cols-2 justify-items-center flex flex-row">
+                <div className="grid grid-cols-1">
                     <div className="col-span-1">
                         <p className="mt-5 text-justify">
                             zemi is a data-driven and reverse-routing library for Express.
@@ -38,12 +38,11 @@ export default function Projects() {
                             and autogenerate an OpenAPI spec. Fully built from the ground-up with Typescript,
                             tests, code maintainability, CI/CD pipelines, documentation, and more.
                         </p>
-                    </div>
-                    <div className="col-span-1">
-                        <JobHighlight text="Recursive library"/>
-                        <JobHighlight text="100% code coverage"/>
-                        <JobHighlight text="Grade A: Codeclimate Maintainability "/>
-                        <JobHighlight text="Fully documented"/>
+                        <br/>
+                        <Highlight text="Recursive library" withMargin={false}/>
+                        <Highlight text="100% code coverage"/>
+                        <Highlight text="Grade A, Codeclimate Maintainability "/>
+                        <Highlight text="Fully documented"/>
                     </div>
                 </div>
             </div>

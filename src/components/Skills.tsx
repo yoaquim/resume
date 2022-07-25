@@ -39,12 +39,12 @@ export default function Skills() {
     ]
     return (
         <Section title="Skills">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-16">
                 {skills.map(({name, icon}: { name: string, icon: string }, i: number) => {
                     const style = {height: '25px', width: '25px'}
                     return (
-                        <div className="col-span-1 pl-4 lg:pl-0">
-                            <div className="w-1/2 lg:w-1/4 flex space-x-2">
+                        <div className="col-span-1 lg:pl-0">
+                            <div className=" lg:w-1/4 flex space-x-2">
                                 <img src={icon} alt="" style={style}/>
                                 <span className="font-bold uppercase">{name}</span>
                             </div>
