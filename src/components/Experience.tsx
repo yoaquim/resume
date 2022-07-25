@@ -8,28 +8,26 @@ export default function Experience() {
         <Section title="Experience">
             <div className="grid gap-20 sm:grid-cols-1 lg:grid-cols-2">
                 <Job title="Consultant" workplace="Allied World" location="Remote" date="02.2022">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    I was brought in for a project that was significantly behind on deadline and had no direction.
+                    Goal was to deliver an insurance portal, but core components and technology where missing — and no plan in
+                    place to reach them. Personally built remaining infrastructure components and led the team to deliver remaining
+                    pieces within adequate time. Heavy use on AWS Lambdas and Cognito.
                     <div className="pt-5">
                         {[
-                            'Lead  team to delivery',
-                            'Great Good',
-                            'Meh Good',
+                            'Brought in to deliver project after setbacks',
+                            'Build and coordinate infrastructure',
+                            'Lead team to deliver project',
+                            'Unblock, build, and fix all presenting blockers',
+                            'Manage and communicate deadlines externally',
+                            'Coordinate with product owners to plan remaining projects phases',
                         ].map(h => Highlight({text: h}))}
                     </div>
                 </Job>
 
                 <Job title="Founder  ｜  Consultant" workplace="Betabit LLC" location="Remote" date="01.2019">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
                     <div className="pt-5">
                         {[
-                            'Owner',
+                            'Find client',
                             'Manage entire consultancy',
                             'Manage entire consultancy',
                         ].map(h => Highlight({text: h}))}
@@ -57,7 +55,7 @@ export default function Experience() {
 
                 <Job title="Eng Manager" workplace="Intent" location="Remote  ｜  NYC" date="03.2015 - 12.2018">
                     During my tenure at Intent I worked across multiple squads: frontend, backend and data engineering. I transitioned to being a People Manager
-                    and started mentoring and managing performance for  junior engineers. On the Data Engineer team, pushed the companies new
+                    and started mentoring and managing performance for junior engineers. On the Data Engineer team, pushed the companies new
                     vision for an AI Prediction System for Online Travel Agencies by creating the entire infrastructure tu support Model and Prediction
                     Automation.
                     <div className="pt-5">

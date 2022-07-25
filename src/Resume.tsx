@@ -10,7 +10,7 @@ import ThemeContext, {Themes} from './context'
 function Resume() {
     return (
         <ThemeContext.Provider value={Themes.light}>
-            <div className={`pb-20 pt-8 grid place-items-center ${Themes.light.background} text-gray-600`}>
+            <div className={`lg:pb-20 pb-14 pt-8 grid place-items-center ${Themes.light.background} text-gray-600`}>
                 <Header/>
                 <WhatImGoodAt/>
                 <Skills/>
