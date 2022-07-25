@@ -5,7 +5,7 @@ import email from '../assets/icon-email-fast-o.svg'
 import ycr from '../assets/ycr.png'
 
 export default function Header() {
-    const iconStyle = {height: '25px', width: '25px'}
+    const iconStyle = {height: '35px', width: '35px'}
     const icons: Array<{ icon: string, href: string, name: string }> = [
         {icon: github, href: 'https://github.com/yoaquim', name: 'yoaquim'},
         {icon: cellphone, href: 'tel:347-510-8940', name: '347-510-8940'},
@@ -34,11 +34,11 @@ export default function Header() {
                             video games, goofing off with my daughter, or woodworking.
                         </p>
 
-                        <div className="lg:flex lg:flex-row lg:mt-12 justify-between">
+                        <div className="lg:flex lg:flex-row lg:mt-10 justify-between">
                             {icons.map(i => {
                                 return (
                                     <div>
-                                        <a className="flex flex-row mt-8 lg:mt-0" href={i.href} rel="noopener noreferrer" target="_blank">
+                                        <a className="lg:mt-0 flex flex-row mt-8 items-center" href={i.href} rel="noopener noreferrer" target="_blank">
                                             <img src={i.icon} alt="" style={iconStyle}/>
                                             <h3 className="font-bold uppercase ml-2">{i.name}</h3>
                                         </a>
