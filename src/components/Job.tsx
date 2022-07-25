@@ -2,6 +2,7 @@ import React, {ReactNode, useContext} from 'react'
 import briefcase from '../assets/icon-briefcase-o.svg'
 import marker from '../assets/icon-location-o.svg'
 import calendar from '../assets/icon-calendar-o.svg'
+import minus from '../assets/icon-minus-o.svg'
 import ThemeContext, {Theme} from '../context'
 
 interface JobProps {
@@ -40,6 +41,16 @@ export default function Job({title, children, location, workplace, date}: JobPro
             </div>
 
             <p className="mt-5 text-justify">{children}</p>
+        </div>
+    )
+}
+
+export function JobHighlight({text}: { text: string }) {
+    const style = {height: '15px', width: '15px'}
+    return (
+        <div className="mt-1 flex flex-row items-center">
+            <img src={minus} alt="" style={style}/>
+            <p className="ml-3">{text}</p>
         </div>
     )
 }

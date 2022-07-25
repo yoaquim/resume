@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './Section'
-import Job from './Job'
+import Job, {JobHighlight} from './Job'
 
 export default function Experience() {
     return (
@@ -11,13 +11,23 @@ export default function Experience() {
                     I've built impactful products, solved technical challenges, implemented large projects
                     and gained invaluable experience on how to deliver software. For me, software isn't just
                     a set of instructions that get written out, but rather a craft to be honed and perfected.
+
+                    <div className="pt-5">
+                        {[
+                            'Not Good',
+                            'Great Good',
+                            'Meh Good',
+                        ].map(h => JobHighlight({text: h}))}
+                    </div>
                 </Job>
+
                 <Job title="Founder  ｜  Consultant" workplace="Betabit LLC" location="Remote" date="01.2019">
                     I've been coding since I was a kid and developing software professionally for over 6 years.
                     I've built impactful products, solved technical challenges, implemented large projects
                     and gained invaluable experience on how to deliver software. For me, software isn't just
                     a set of instructions that get written out, but rather a craft to be honed and perfected.
                 </Job>
+
                 <Job title="Eng Manager  ｜  Cloud Owner" workplace="Attune Insurance" location="Remote  ｜  NYC" date="12.2018 - 01.2022">
                     The Cloud has redefined how we create, support and define computing resources.
                     As a DevOps Engineer, I've built and managed different infrastructure stacks: traffic-heavy services,
@@ -29,11 +39,13 @@ export default function Experience() {
                     Growing each member of a team is more complicated than software, but I enjoy the challenge and all it yields.
                     Throughout my career, I have mentored engineers, developed roadmaps and grown teams and their processes.
                 </Job>
+
                 <Job title="Software Engineer" workplace="Hackerati" location="NYC" date="01.2015 - 09.2015">
                     Many engineers forget that Software Development is much more than just writing code. How do you deploy it?
                     Maintain it? Monitor it? From deployment pipelines to alerting, I've built countless integrations
                     that deliver value in seconds, and keep that value operating at peak performance.
                 </Job>
+
                 <Job title="Software Developer" workplace="Optivon" location="San Juan, PR" date="10.2013 - 12.2014">
                     Many engineers forget that Software Development is much more than just writing code. How do you deploy it?
                     Maintain it? Monitor it? From deployment pipelines to alerting, I've built countless integrations

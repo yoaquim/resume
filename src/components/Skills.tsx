@@ -14,6 +14,9 @@ import typescript from '../assets/icon-typescript.svg'
 import node from '../assets/icon-node.svg'
 import bash from '../assets/icon-shell-o.svg'
 import tdd from '../assets/icon-test-tube.svg'
+import css from '../assets/icon-css-o.svg'
+import bolt from '../assets/icon-bolt-o.svg'
+import python from '../assets/icon-python-o.svg'
 
 export default function Skills() {
     const skills: Array<{ name: string, icon: string }> = [
@@ -23,14 +26,16 @@ export default function Skills() {
         {name: "Docker", icon: docker},
         {name: "Linux", icon: linux},
         {name: "Java", icon: java},
+        {name: "Python", icon: python},
         {name: "PostgreSQL", icon: postgres},
-        {name: "Git", icon: git},
         {name: "React", icon: react},
         {name: "Typescript", icon: typescript},
         {name: "NodeJS", icon: node},
+        {name: "CSS", icon: css},
+        {name: "Git", icon: git},
         {name: "Bash", icon: bash},
         {name: "TDD", icon: tdd},
-        {name: "Serverless", icon: tdd},
+        {name: "Serverless", icon: bolt},
     ]
     return (
         <Section title="Skills">

@@ -9,18 +9,16 @@ import ThemeContext, {Themes} from './context'
 
 function Resume() {
     return (
-        <div className="pb-32">
-            <ThemeContext.Provider value={Themes.light}>
-                <div className={`grid h-screen place-items-center ${Themes.light.background} text-gray-600`}>
-                    <Header/>
-                    <WhatImGoodAt/>
-                    <Skills/>
-                    <Experience/>
-                    <Projects/>
-                    <Education/>
-                </div>
-            </ThemeContext.Provider>
-        </div>
+        <ThemeContext.Provider value={Themes.light}>
+            <div className={`pb-20 grid place-items-center ${Themes.light.background} text-gray-600`}>
+                <Header/>
+                <WhatImGoodAt/>
+                <Skills/>
+                <Experience/>
+                <Projects/>
+                <Education/>
+            </div>
+        </ThemeContext.Provider>
     )
 }
 
