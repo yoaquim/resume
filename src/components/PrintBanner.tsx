@@ -6,7 +6,7 @@ export default function PrintBanner() {
     return (
         <div id="PrintBanner" className={`cursor-pointer py-1 w-screen fixed bottom-0 bg-gradient-to-r ${Theme.gradient} text-white text-center uppercase font-bold`}
              onClick={window.print}>
-            [BETA] DOWNLOAD THIS RESUME
+            [BETA] PRINT THIS RESUME
         </div>
     )
 }
