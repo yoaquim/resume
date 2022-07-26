@@ -27,7 +27,7 @@ export default function Header() {
                         </div>
 
                         <p className="lg:py-0 lg:mt-5 mt-8 text-justify">
-                            I'm a Cloud and DevOps Leader with a focus on people.
+                            I'm an Engineering and Technology Leader with a focus on people.
                             I have a passion for delivering value through technology,
                             and building inclusive and effective teams. When I'm not
                             wrestling infrastructure in the cloud, you can find me playing

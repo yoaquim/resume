@@ -7,11 +7,11 @@ export default function Experience() {
     return (
         <Section title="Experience">
             <div className="grid gap-20 sm:grid-cols-1 lg:grid-cols-2">
-                <Job title="Consultant" workplace="Allied World" location="Remote" date="02.2022">
-                    I was brought in for a project that was significantly behind on deadline and had no direction.
+                <Job title="Consultant, Data & Platform" workplace="Allied World" location="Remote" date="02.2022 - CURRENT">
+                    I was brought in for a project that was significantly behind on deadlines and had no direction.
                     Goal was to deliver an insurance portal, but core components and technology where missing — and no plan in
-                    place to reach them. Personally built remaining infrastructure components and led the team to deliver remaining
-                    pieces within adequate time. Heavy use on AWS Lambdas and Cognito.
+                    place to reach them. I personally built remaining infrastructure components and led the team to deliver remaining
+                    pieces in record time. Heavy use on AWS Lambdas and Cognito.
                     <div className="pt-5">
                         {[
                             'Brought in to deliver project after setbacks',
@@ -24,12 +24,16 @@ export default function Experience() {
                     </div>
                 </Job>
 
-                <Job title="Founder  ｜  Consultant" workplace="Betabit LLC" location="Remote" date="01.2019">
+                <Job title="Founder  ｜  Consultant" workplace="Betabit LLC" location="Remote" date="01.2019 - CURRENT">
+                    Betabit believes that building products doesn't have to be orthogonal to developing good code.
+                    With experience across industries and technology, Betabit strives to provide solutions across the
+                    Generalist, DevSecOps, Cloud and Platform, and Data spaces.
                     <div className="pt-5">
                         {[
-                            'Find client',
-                            'Manage entire consultancy',
-                            'Manage entire consultancy',
+                            'Grow clients',
+                            'Manage resources across projects',
+                            'Develop best practices for different business cases',
+                            'Build projects and prototypes; develop learning content',
                         ].map(h => Highlight({text: h}))}
                     </div>
                 </Job>
@@ -41,6 +45,7 @@ export default function Experience() {
 
                     <div className="pt-5">
                         {[
+                            'Build a platform where each employee had access to their own environment, through a GUI, with various deploy targets and capabilities  ',
                             'Manage engineers across two teams, focusing on performance, career growth and mentoring',
                             'Migrate all infrastructure from legacy cloud to AWS, cutting down yearly costs from $1.2M to $400K',
                             'Scale DevOps team, processes and practices, organization-wide',
@@ -53,7 +58,7 @@ export default function Experience() {
                     </div>
                 </Job>
 
-                <Job title="Eng Manager" workplace="Intent" location="Remote  ｜  NYC" date="03.2015 - 12.2018">
+                <Job title="Eng Manager  ｜  Senior Eng" workplace="Intent" location="Remote  ｜  NYC" date="03.2015 - 12.2018">
                     During my tenure at Intent I worked across multiple squads: frontend, backend and data engineering. I transitioned to being a People Manager
                     and started mentoring and managing performance for junior engineers. On the Data Engineer team, pushed the companies new
                     vision for an AI Prediction System for Online Travel Agencies by creating the entire infrastructure tu support Model and Prediction
