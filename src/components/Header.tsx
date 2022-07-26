@@ -33,10 +33,10 @@ export default function Header() {
                         </div>
 
                         <p className="lg:py-0 lg:mt-5 mt-8 text-justify">
-                            I'm an Engineering and Technology Leader with a focus on <strong className={gradientText}>people</strong>.
-                            I have a <strong className={gradientText}>passion</strong> for delivering value through technology,
-                            and building <strong className={gradientText}>inclusive</strong> and effective teams. When I'm not
-                            wrestling infrastructure in the <strong className={gradientText}>cloud</strong>, you can find me playing
+                            I'm an Engineering and Technology Leader with a focus on <span className={gradientText}>people</span>.
+                            I have a <span className={gradientText}>passion</span> for delivering value through technology,
+                            and building <span className={gradientText}>inclusive</span> and effective teams. When I'm not
+                            wrestling infrastructure in the <span className={gradientText}>cloud</span>, you can find me playing
                             video games, goofing off with my daughter, or woodworking.
                         </p>
 
