@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media print {
+    @page {
+        margin: 0;
+    }
+
+    #Projects {
+        margin-top: 50px;
+    }
+
+    #Experience {
+        margin-top: 100px;
+    }
+
+    #Education {
+        margin-top: 950px;
+    }
+
+    #PrintBanner {
+        display: none;
+    }
+}
