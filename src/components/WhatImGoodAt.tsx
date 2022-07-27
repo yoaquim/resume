@@ -24,7 +24,7 @@ export default function WhatImGoodAt() {
                     After countless iterations and trial-and-error, I've learned how to iterate on value and kill time-sinks.
                 </Trait>
                 <Trait title="Software" icon={appCode}>
-                    I've been coding since I was a kid and developing software professionally for over 6 years.
+                    I've been coding since I was a kid and developing software professionally for almost a decade.
                     I've built impactful products, solved technical challenges, implemented large projects
                     and gained invaluable experience on how to deliver software. Software isn't just
                     a set of instructions that get written out, but rather a craft to be honed and perfected.
