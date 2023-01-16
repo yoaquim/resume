@@ -1,10 +1,10 @@
-import React, {useContext, useState} from 'react'
+import React, { useContext, useState } from 'react'
 import Section from './Section'
 import opensource from '../assets/icon-opensource-o.svg'
 import dots from '../assets/icon-dots-grid-o.svg'
 import calendar from '../assets/icon-calendar-o.svg'
 import Highlight from './Highlight'
-import ThemeContext, {Theme} from '../context'
+import ThemeContext, { Theme } from '../context'
 
 export default function Projects() {
     const Theme: Theme = useContext(ThemeContext)
@@ -38,8 +38,7 @@ export default function Projects() {
                             <p className="mt-5 text-justify">
                                 I wanted to build zemi because I believe in declarative programming: provide a JSON, get functionality.
                                 zemi is a data-driven and reverse-routing library for Express.
-                                It provides OpenAPI support, allowing the user to specify
-                                and autogenerate an OpenAPI spec. Fully built from the ground-up with Typescript,
+                                Fully built from the ground-up with Typescript,
                                 tests, code maintainability, CI/CD pipelines, documentation, and more.
                             </p>
                             <br/>
