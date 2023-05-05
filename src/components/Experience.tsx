@@ -8,18 +8,29 @@ export default function Experience() {
         <Section title="Experience">
             <div className="grid gap-20 sm:grid-cols-1 lg:grid-cols-2">
                 <Job title="Consultant, Data & Platform" workplace="Allied World" location="Remote" date="02.2022 - CURRENT">
-                    I was brought in for a project that was significantly behind on deadlines and had no direction.
+                    <p>
+                    I built a Data Platform from the ground up. Needed to build a system that would deliver the requested
+                    reports; you could select a report form a UI and it would automagically send that report to your email.
+                    Backend to that was an entire system that would receive q request for a report and queue data jobs
+                    accordingly. Tech used: dbt, Airflow, Chalice, Redshift.
+                    </p>
+                   <br/>
+                    I was initially brought in for a project that was significantly behind on deadlines and had no direction.
                     Goal was to deliver an insurance portal, but core components and technology where missing — and no plan in
                     place to reach them. I personally built remaining infrastructure components and led the team to deliver remaining
                     pieces in record time. Heavy use on AWS Lambdas and Cognito.
                     <div className="pt-5">
                         {[
-                            'Brought in to deliver project after setbacks',
-                            'Build and coordinate infrastructure',
-                            'Lead team to deliver project',
-                            'Unblock, build, and fix all presenting blockers',
-                            'Manage and communicate deadlines externally',
-                            'Coordinate with product owners to plan remaining projects phases',
+                            'Define and build Data Processes: help define the Data Platform team and best practices',
+                            'Delivered a dynamic Data Platform that could generate on-demand reports ',
+                            'Leveraged Redshift and DMS to ensure data parity across internal EDWs and Products',
+                            'Used Terraform, CDK, and Chalice to build out Data Platform infrastructure',
+                            'Built Terraform AWS Cognito Module for Insurance Portal authentication',
+                            'Led team to deliver Insurance Portal',
+                            // 'Brought in to deliver project after setbacks',
+                            // 'Unblock, build, and fix all presenting blockers',
+                            // 'Manage and communicate deadlines externally',
+                            // 'Coordinate with product owners to plan remaining projects phases',
                         ].map(h => Highlight({text: h}))}
                     </div>
                 </Job>
