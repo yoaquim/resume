@@ -14,15 +14,15 @@ export default function Header() {
             <div className="flex pt-4 font-rubik text-stone space-x-10 font-normal">
                 <div className="flex items-center space-x-1">
                     <PhoneIcon className="w-4 h-4 text-light-stone"/>
-                    <div>347-510-8940</div>
+                    <a href="tel:+13475108940">347-510-8940</a>
                 </div>
                 <div className="flex items-center space-x-1">
                     <AtSymbolIcon className="w-6 h-6 text-light-stone"/>
-                    <div>yoaquim@outlook.com</div>
+                    <a href="mailto:yoaquim@outlook.com">yoaquim@outlook.com</a>
                 </div>
                 <div className="flex items-center space-x-1.5">
                     <img src={gh} className="w-6 h-6" alt="github_logo"/>
-                    <div>github.com/yoaquim</div>
+                    <a href="https://github.com/yoaquim" target="_blank" rel="noreferrer">github.com/yoaquim</a>
                 </div>
             </div>
         </>
