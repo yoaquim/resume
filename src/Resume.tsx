@@ -46,7 +46,7 @@ function Resume() {
 
             </div>
 
-            <a href={pdf} target="_blank" className="fixed bottom-0 w-screen h-10 py-2 bg-dark-green font-rubik text-white text-center cursor-pointer">
+            <a href={pdf} rel="noreferrer" target="_blank" className="fixed bottom-0 w-screen h-10 py-2 bg-dark-green font-rubik text-white text-center cursor-pointer">
                 DOWNLOAD THIS RESUME
             </a>
         </div>
