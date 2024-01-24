@@ -18,9 +18,9 @@ function Resume() {
     mixpanel.track('page-view')
 
     return (
-        <div className="w-screen flex overflow-y-auto">
+        <div className="w-screen flex flex-col lg:flex-row overflow-y-auto">
             {/*------------------MAIN------------------*/}
-            <div className="w-3/4 h-full pb-10 pt-4 px-32 bg-white">
+            <div className="w-full lg:w-3/4 h-full pb-10 pt-4 px-10 lg:px-32 bg-white">
                 <div className="pt-16"><Header/></div>
                 <div className="mt-28 pb-16 space-y-20">
                     <Summary/>
@@ -31,7 +31,7 @@ function Resume() {
             </div>
 
             {/*------------------SIDEBAR------------------*/}
-            <div className="w-1/4 bg-aqua font-inter font-light text-white">
+            <div className="w-full lg:w-1/4 pb-20 bg-aqua font-inter font-light text-white">
                 <div className="w-full h-8 bg-dark-green"/>
 
                 <div className="pt-8 flex justify-center">

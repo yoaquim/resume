@@ -11,7 +11,7 @@ export default function Header() {
             <div className="pt-2 font-inter text-light-green text-2xl">
                 Engineering Leader, Software Engineer
             </div>
-            <div className="flex pt-4 font-rubik text-stone space-x-10 font-normal">
+            <div className="mt-10 lg:mt-0 flex flex-col lg:flex-row pt-4 font-rubik text-stone space-y-4 lg:space-x-10 lg:space-y-0 font-normal">
                 <div className="flex items-center space-x-1">
                     <PhoneIcon className="w-4 h-4 text-light-stone"/>
                     <a href="tel:+13475108940">347-510-8940</a>
