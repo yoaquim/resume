@@ -8,7 +8,7 @@ export default function Experience() {
             <SectionTitle title="PROFESSIONAL EXPERIENCE"/>
             <div className="mt-4 space-y-12">
                 <Entry
-                    title="Platform Lead, Data Architect Lead, Manager - Consultant"
+                    title="Platform Lead, Data Engineer Lead, Manager - Consultant"
                     detail="2022-2023"
                     subtitle="Allied World"
                     location="Remote">
